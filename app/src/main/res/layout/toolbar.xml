@@ -5,12 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="?android:attr/actionBarSize"
     android:background="@color/transparent"
-    android:contentInsetStart="0dp"
-    android:contentInsetLeft="0dp"
-    android:contentInsetEnd="0dp"
-    android:contentInsetRight="0dp"
-    android:contentInsetStartWithNavigation="0dp"
-    android:elevation="3dp">
+    
+  >
+    
+    
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -18,13 +16,16 @@
 
         <ImageView
             android:id="@+id/back"
-            android:layout_width="70dp"
+            android:layout_width="101dp"
             android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
             android:foreground="?android:attr/selectableItemBackground"
             android:onClick="openList"
             android:padding="14dp"
-            android:src="@drawable/back"
-             />
+            android:src="@mipmap/back" />
 
         <ImageView
             android:id="@+id/list_bar"
@@ -35,7 +36,9 @@
             android:gravity="center"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
-            android:src="@drawable/baseline_more_vert_black_18dp" />
+            android:src="@mipmap/baseline_more_vert_black_18dp" />
+
 
     </RelativeLayout>
+
 </androidx.appcompat.widget.Toolbar>

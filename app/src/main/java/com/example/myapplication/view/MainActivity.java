@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity implements
 
                 // Add the SymbolLayer icon image to the map style
                 .withImage(ICON_ID, BitmapFactory.decodeResource(
-                        MainActivity.this.getResources(), R.drawable.red_marker))
+                        MainActivity.this.getResources(), R.mipmap.red_marker))
 
                 // Adding a GeoJson source for the SymbolLayer icons.
                 .withSource(new GeoJsonSource(SOURCE_ID,
