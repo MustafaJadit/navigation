@@ -19,18 +19,7 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        //test from f2
         application=this;
     }
-
-    //test
-
-
-
-
-    //test from f1
-
-
-
-    //test from f1 part2
+//    test 1
 }
